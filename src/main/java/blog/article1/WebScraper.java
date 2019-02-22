@@ -13,7 +13,6 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 public class WebScraper {
 
     public static void main(String[] args) {
-
         String searchQuery = "iphone 8";
         String baseUrl = "https://newyork.craigslist.org/";
         WebClient client = new WebClient();
